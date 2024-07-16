@@ -28,22 +28,13 @@
                 <div class="col-1" style="background-color: red">11</div>
                 <div class="col-1" style="background-color: red">12</div>
             </div>
-        </div>
-
-        <div class="container-fluid">
             <div class="row">
                 <div class="col-6" style="background-color: blue">6</div>
                 <div class="col-6" style="background-color: blue">6</div>
             </div>
-        </div>
-
-        <div class="container-fluid">
             <div class="row justify-content-center text-center">
                 <div class="col-8" style="background-color: lightblue">sisa</div>
             </div>
-        </div>
-
-        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-2" style="background-color: darkgreen"></div>
                 <div class="col" style="background-color: lightgreen">
@@ -66,6 +57,20 @@
                 </div>
                 <div class="col-lg-2" style="background-color: darkgreen"></div>
             </div>
+            <div class="row">
+                <hr>
+                <hr>
+            </div>
+            <div style="height: 50px;" class="row h-20">
+                <div class="col-5" style="background-color: #006769;">primary</div>
+                <div class="col-3" style="background-color: #40A578;">aksen</div>
+                <div class="col-2" style="background-color: #9DDE8B;">text</div>
+                <div class="col-2" style="background-color: #E6FF94;">pop</div>
+            </div>
+            <div class="row">
+                <hr>
+                <hr>
+            </div>
         </div>
     </div>
     <!-- grid helper end -->
@@ -77,9 +82,9 @@
             </div>
         </div>
     </div>
-    <div class="container bg-primary">
-        <div class="row">
-            <div class="col-md">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-md-8 bg-primary">
                 <h1><?= site_url('assets/style.css'); ?></h1>
                 <h1>Hello, world!</h1>
             </div>
