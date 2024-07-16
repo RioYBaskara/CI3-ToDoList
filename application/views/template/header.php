@@ -5,15 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?= $title; ?></title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="<?= site_url('assets/style.css'); ?>">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="<?= base_url('assets/style.css'); ?>">
 </head>
 
 <body>
     <!-- Grid helper -->
-    <div class="opacity-80">
-        <div class="container-fluid">
+    <!-- <div class="opacity-80">
+        <div class="container-fluid bg-light">
             <div class="row">
                 <div class="col-1" style="background-color: red">1</div>
                 <div class="col-1" style="background-color: red">2</div>
@@ -72,29 +73,18 @@
                 <hr>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- grid helper end -->
 
-    <div class="container-fluid text-center bg-danger judul m-0">
-        <div class="row justify-content-center">
+    <div class="container-fluid text-center m-0 sticky-top">
+        <div class="row justify-content-center title-head title">
             <div class="col-md-8">
-                Anu
+                <h1>Your <span>TO DO LIST !</span></h1>
             </div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid content">
         <div class="row justify-content-center">
-            <div class="col-md-8 bg-primary">
-                <h1><?= site_url('assets/style.css'); ?></h1>
-                <h1>Hello, world!</h1>
-            </div>
-        </div>
-    </div>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-</body>
-
-</html>
+            <div class="col-md-8 mt-3">
+                
+            

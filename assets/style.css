@@ -1,4 +1,42 @@
+/* #006769
+#40A578
+#9DDE8B
+#E6FF94 */
+
 html {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #006769;
+}
+
+.title-head {
+  background-color: #40a578;
+}
+
+.title {
+  margin-bottom: 100px;
+  background-color: #40a578;
+}
+
+.title h1 {
+  color: #e6ff94;
+  font-weight: 700;
+}
+.title span {
+  color: #e6ff94;
+  font-weight: 1000;
+}
+
+.content {
+  background-color: #006769;
+  height: 600px;
+}
+
+.content .table .border {
+  border-style: solid;
+  border: #9dde8b;
+  border-width: 10px;
 }
