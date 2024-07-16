@@ -28,6 +28,7 @@ body {
 .title span {
   color: #e6ff94;
   font-weight: 1000;
+  text-shadow: 4px 4px black;
 }
 
 .content {
@@ -39,4 +40,67 @@ body {
   border-style: solid;
   border: #9dde8b;
   border-width: 10px;
+}
+
+.custom-shadow {
+  box-shadow: 10px 10px;
+  background-color: #40a578;
+}
+
+.custom-shadow h4 {
+  color: #e6ff94;
+  font-weight: 100;
+}
+
+.custom-shadow h5 {
+  color: #e6ff94;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.custom-shadow p {
+  color: #e6ff94;
+}
+
+.custom-shadow small p {
+  color: #9dde8b;
+}
+
+.tombol-tambah {
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+  border: 10px solid #40a578;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  opacity: 0.6;
+  transition: 0.3s;
+  box-shadow: 10px 10px;
+}
+.tombol-tambah i {
+  margin: auto;
+  color: #e6ff94;
+}
+.tombol-tambah:hover {
+  opacity: 1;
+  box-shadow: 0px 0px;
+}
+
+.list-task {
+  box-shadow: 0px 0px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.list-task:hover {
+  box-shadow: 10px 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  background-color: #006769;
 }

@@ -7,6 +7,7 @@ class Task extends CI_Controller
     {
         parent::__construct();
         $this->load->model('Task_Model');
+        $this->load->library('form_validation');
     }
     public function index()
     {
@@ -17,4 +18,10 @@ class Task extends CI_Controller
         $this->load->view('task', $data);
         $this->load->view('template/footer');
     }
+
+    public function add()
+    {
+
+    }
+
 }
